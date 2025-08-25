@@ -18,6 +18,7 @@ import {
 } from 'lucide-react';
 import { Borrower } from '../../types';
 import { useAuth } from '../../contexts/AuthContext';
+import { dataService } from '../../services/dataService';
 
 // Mock data
 const mockBorrowers: Borrower[] = [
